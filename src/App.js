@@ -1,5 +1,5 @@
 import './App.css';
-import React, {useState, useRef, Fragment} from 'react'
+import React, {useState, useRef, Fragment, Suspense} from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Gallery from './components/Gallery'
 import SearchBar from './components/SearchBar'
